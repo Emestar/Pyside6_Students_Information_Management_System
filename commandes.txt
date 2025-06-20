@@ -1,4 +1,3 @@
-
 python3.13 -m venv env
 .\env\Scripts\activate
 pip install pyside6
@@ -17,12 +16,21 @@ git remote add origin https://github.com/Emestar/Pyside6_Students_Information_Ma
 git branch -M main
 git push -u origin main
 
+_____
+
 pyside6-designer
-
-
 
 git status
 git add .
 git commit -m "main.ui - ajout des Widgets de notre interface graphique"
+git push
+
+_____
+
+pyside6-designer
+
+git status
+git add .
+git commit -m "main.ui - tweaking "
 git push
 
