@@ -34,3 +34,19 @@ git add .
 git commit -m "main.ui - Finalisation de l'ajout des Widgets GUI - version 1"
 git push
 
+[did 2 commit, oops]
+_____
+
+git log --graph
+git log --graph --oneline
+pyside6-designer
+
+git status
+git add .
+git commit -m "Ajout de la feuille de style pour Forms - QWidget"
+git push
+
+_____
+ 
+
+
