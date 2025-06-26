@@ -1,3 +1,5 @@
+::2025-06-20::
+
 python3.13 -m venv env
 .\env\Scripts\activate
 pip install pyside6
@@ -47,6 +49,16 @@ git commit -m "Ajout de la feuille de style pour Forms - QWidget"
 git push
 
 _____
- 
+::2025-06-26::
 
+pyside6-designer
 
+dir env\Scripts\pyside6-*.exe
+pyside6-uic.exe main.ui -o main_ui.py
+
+[create main.py]
+
+git status
+git add .
+git commit -m "Ajout de la feuille de style pour Forms - QWidget"
+git push
